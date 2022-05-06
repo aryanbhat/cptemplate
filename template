@@ -1,5 +1,5 @@
-//BeginCodeSnip{C++ Short Template}
-#include <bits/stdc++.h> // see /general/running-code-locally
+
+#include <bits/stdc++.h> 
 using namespace std;
 
 using ll = long long;
@@ -14,15 +14,23 @@ using pi = pair<int,int>;
 #define s second
 #define mp make_pair
 
-void setIO(string name = "") {
-	cin.tie(0)->sync_with_stdio(0); // see /general/fast-io
-	if (sz(name)) {
-		freopen((name + ".in").c_str(), "r", stdin); // see /general/input-output
+void solve(){
+
+}
+
+void setIO() {
+	string name = "";
+	cin.tie(0)->sync_with_stdio(0); 
+		freopen((name + ".in").c_str(), "r", stdin); 
 		freopen((name + ".out").c_str(), "w", stdout);
-	}
 }
 //EndCodeSnip
 
 int main() {
 	setIO();
+	int tc=1;
+	//cin>>tc;
+	for(int i=1;i<=tc;i++){
+	solve();
+	}
 }
